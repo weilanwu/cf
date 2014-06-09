@@ -1,0 +1,9 @@
+
+--- 
+applications: 
+- url: hw_github_callback_svc.cfapps.io
+  memory: 256M
+  name: myhwapp
+  instances: 1
+  path: .
+  command: 'ruby myapp.rb'
